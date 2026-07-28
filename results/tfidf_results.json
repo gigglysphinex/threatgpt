@@ -1,0 +1,303 @@
+{
+  "n": 49,
+  "n_techniques": 222,
+  "top1_accuracy": 0.5306122448979592,
+  "top3_accuracy": 0.7142857142857143,
+  "mrr": 0.6554367420834696,
+  "rows": [
+    [
+      "The attacker used Mimikatz to dump credentials from LSASS me...",
+      "T1003",
+      "T1003",
+      1
+    ],
+    [
+      "A malicious actor sent a phishing email with a link that led...",
+      "T1566",
+      "T1566",
+      1
+    ],
+    [
+      "The threat group exploited a known vulnerability in the orga...",
+      "T1190",
+      "T1190",
+      1
+    ],
+    [
+      "The malware created a scheduled task to run every hour and m...",
+      "T1053",
+      "T1053",
+      1
+    ],
+    [
+      "The adversary used PowerShell scripts to execute malicious c...",
+      "T1059",
+      "T1037",
+      4
+    ],
+    [
+      "The attacker performed a brute-force attack against the RDP ...",
+      "T1110",
+      "T1110",
+      1
+    ],
+    [
+      "Data was exfiltrated over the existing command and control c...",
+      "T1041",
+      "T1041",
+      1
+    ],
+    [
+      "The group used DNS tunneling to establish a covert command a...",
+      "T1071",
+      "T1041",
+      30
+    ],
+    [
+      "The malware injected code into a legitimate process to evade...",
+      "T1055",
+      "T1055",
+      1
+    ],
+    [
+      "The attacker enumerated all user accounts on the domain cont...",
+      "T1087",
+      "T1207",
+      8
+    ],
+    [
+      "The adversary used compromised valid accounts to log into th...",
+      "T1078",
+      "T1087",
+      2
+    ],
+    [
+      "The malware disguised itself as a legitimate system file by ...",
+      "T1036",
+      "T1091",
+      2
+    ],
+    [
+      "The threat actor encrypted files across the network and dema...",
+      "T1486",
+      "T1677",
+      8
+    ],
+    [
+      "The attacker used WMI to remotely execute commands on other ...",
+      "T1047",
+      "T1047",
+      1
+    ],
+    [
+      "The group registered a look-alike domain to host their phish...",
+      "T1583",
+      "T1615",
+      7
+    ],
+    [
+      "The malware queried the Windows registry to determine instal...",
+      "T1012",
+      "T1012",
+      1
+    ],
+    [
+      "The adversary moved laterally by copying tools to other host...",
+      "T1570",
+      "T1570",
+      1
+    ],
+    [
+      "The threat group captured keystrokes to steal login credenti...",
+      "T1056",
+      "T1615",
+      13
+    ],
+    [
+      "The attacker cleared Windows event logs to remove evidence o...",
+      "T1070",
+      "T1654",
+      8
+    ],
+    [
+      "The adversary used compromised email accounts to send furthe...",
+      "T1534",
+      "T1566",
+      35
+    ],
+    [
+      "The malware collected screenshots of the victim's desktop ev...",
+      "T1113",
+      "T1560",
+      7
+    ],
+    [
+      "The attacker tampered with a software update mechanism to di...",
+      "T1195",
+      "T1195",
+      1
+    ],
+    [
+      "The group compressed the collected data into an archive befo...",
+      "T1560",
+      "T1560",
+      1
+    ],
+    [
+      "The threat actor performed reconnaissance by scanning the ta...",
+      "T1595",
+      "T1665",
+      6
+    ],
+    [
+      "The malware used a legitimate cloud storage service to exfil...",
+      "T1567",
+      "T1530",
+      4
+    ],
+    [
+      "The adversary manipulated Kerberos tickets to escalate privi...",
+      "T1558",
+      "T1558",
+      1
+    ],
+    [
+      "The attacker discovered the list of running processes on the...",
+      "T1057",
+      "T1057",
+      1
+    ],
+    [
+      "The threat group used a legitimate remote access tool to mai...",
+      "T1219",
+      "T1219",
+      1
+    ],
+    [
+      "The malware established persistence by modifying the Windows...",
+      "T1547",
+      "T1012",
+      3
+    ],
+    [
+      "The attacker exploited a client-side vulnerability in a docu...",
+      "T1203",
+      "T1221",
+      2
+    ],
+    [
+      "The adversary discovered the victim's network configuration ...",
+      "T1016",
+      "T1016",
+      1
+    ],
+    [
+      "The threat actor used a trusted developer utility to proxy t...",
+      "T1127",
+      "T1127",
+      1
+    ],
+    [
+      "The group harvested credentials stored in the victim's web b...",
+      "T1555",
+      "T1185",
+      9
+    ],
+    [
+      "The malware communicated with its C2 server using an encrypt...",
+      "T1573",
+      "T1041",
+      2
+    ],
+    [
+      "The attacker escalated privileges by exploiting a vulnerabil...",
+      "T1068",
+      "T1547",
+      2
+    ],
+    [
+      "The threat group destroyed backup files to inhibit system re...",
+      "T1490",
+      "T1490",
+      1
+    ],
+    [
+      "The adversary flooded the target's web server with traffic, ...",
+      "T1498",
+      "T1498",
+      1
+    ],
+    [
+      "The malware searched for and collected files from network sh...",
+      "T1039",
+      "T1135",
+      2
+    ],
+    [
+      "The attacker used a hardware implant plugged into a USB port...",
+      "T1200",
+      "T1571",
+      2
+    ],
+    [
+      "The group used a trusted relationship with a third-party IT ...",
+      "T1199",
+      "T1199",
+      1
+    ],
+    [
+      "The threat actor gathered information about the victim organ...",
+      "T1591",
+      "T1591",
+      1
+    ],
+    [
+      "The malware defaced the victim's website homepage after gain...",
+      "T1491",
+      "T1189",
+      174
+    ],
+    [
+      "The adversary transferred additional hacking tools onto the ...",
+      "T1105",
+      "T1078",
+      5
+    ],
+    [
+      "The threat group used compromised cloud credentials to acces...",
+      "T1530",
+      "T1619",
+      2
+    ],
+    [
+      "The attacker used a rootkit to hide malicious processes from...",
+      "T1014",
+      "T1014",
+      1
+    ],
+    [
+      "The malware sniffed network traffic to capture unencrypted c...",
+      "T1040",
+      "T1040",
+      1
+    ],
+    [
+      "The group used steganography techniques to obfuscate their c...",
+      "T1001",
+      "T1001",
+      1
+    ],
+    [
+      "The adversary manipulated the target's cloud infrastructure ...",
+      "T1578",
+      "T1578",
+      1
+    ],
+    [
+      "The threat actor conducted a watering-hole attack by comprom...",
+      "T1189",
+      "T1189",
+      1
+    ]
+  ]
+}
